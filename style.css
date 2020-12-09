@@ -1,0 +1,2568 @@
+/* ==========================================================================
+   Author's custom styles 
+========================================================================== */
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+/* ==========================================================================
+   Home page 
+========================================================================== */
+ 
+
+/* ==========================================================================
+   header section start
+========================================================================== */
+.silderrespons {
+    position: relative !important;
+    background: #fff !important;
+    
+}
+.navbar-default {
+    background-color: #fff;
+    margin: 0;
+    border-radius: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+    background: rgb(255,255,255,0.9);
+    transition: all 0.5s ease 0s;
+}
+.navbar.stick {
+    background-color: #fff;
+    padding: 5px 0 0 0;
+    position: fixed !important;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 0 20px 0 #0009;
+    width: 100%;
+    border-radius: 0px;
+}
+.navbar-brand>img {
+    display: block;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.stick .headertop{
+  display: none;
+}
+.stick .logo{
+  display: none;
+}
+
+.logonext {
+    display: none;
+}
+.logonext img {
+    margin-top: 5px;
+}
+.stick .logonext{
+  display: block;
+}
+
+.headertop {
+    text-align: right;  
+    padding-top: 17px;
+} 
+
+.card .box span {
+    display:inline-flex;
+}
+.card .box ul {
+    margin-top: -4px;
+    padding:0;
+}
+.card .box ul li {
+    list-style:none;
+    float:left;
+}
+.card .box ul li a {
+    display:block;
+    color:#444;
+    margin:0 10px;
+    font-size:20px;
+    transition:0.5s;
+    text-align:center;
+}
+.card .box ul li:hover a {
+    color:#ff0000;
+    transform:rotateY(360deg);
+}
+.headertop .card .box h1 {
+    font-size: 14px;
+    color: #444;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;
+    padding-top: 3px;
+}
+.headertop .card .box strong:before {
+    margin-left: 6px;
+    margin-right: 10px;
+
+}
+.headertop .card .box strong {
+    margin-right: 10px;
+    border: 1px solid #555;
+    padding: 5px 15px 5px 15px;
+}
+.headertop .card .box strong a {
+    color: #444;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 15px;
+}
+.headertop .card .box strong a:hover {
+    color: #ff0000;
+    font-weight: 400;
+}
+.headertop .card .box i {
+    font-size: 14px;
+}
+
+.headermenu {
+    float: right;
+    margin-top: 0px;
+}
+.navbar-brand { 
+  /*width: 70px;
+  height: 50px;
+  background: url('http://www.sneaker-mission.com/uploads/3/1/2/7/31279819/5617441.png') no-repeat center center;
+  background-size: 50px;  */ 
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent; 
+    padding: 0;
+    margin-top: 10px;
+}
+.nav-tabs {
+  display: inline-block;
+  border-bottom: none;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 3px 13px 17px 13px;
+    color: #777 !important;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.nav>li>a::before {
+    background: #ff0000 none repeat scroll 0 0;
+    bottom: 12px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    width: 100%;
+    transition: all 0.5s ease 0s;
+}
+.nav>li.active>a::before, .nav>li>a:hover::before {
+    transform: scale(1);
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: transparent !important;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: transparent !important;
+}
+
+/*ul.nav li:nth-child(7) a {
+    padding-right: 0px;
+}*/
+
+.headermenu ul li:last-child ul {
+  right:0px;
+  left:auto;
+}
+.dropdown-menu>li>a {
+    position: relative;
+}
+.dropdown-menu>li>a::before {
+    background: #ff0000 none repeat scroll 0 0;
+    bottom: 0px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    width: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+.dropdown-menu>li.active>a::before, .dropdown-menu>li>a:hover::before {
+    transform: scale(1);
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: transparent;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: transparent;
+}
+.mega-dropdown { position: static !important; }
+.mega-dropdown-menu {
+    padding: 5px 10px 15px;
+    text-align: center;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: 0px 3px 9px 0 #0009;
+    background-color: #fff;
+}
+
+
+/*-- Navbar Toggle --*/
+
+.navbar-toggle {
+    width: 40px;
+    height: 40px;
+    color: #333;
+    border-radius: 0;
+    padding: 0;
+    text-align: center;
+    border: none;
+    margin: 0;
+}
+.navbar-toggle i {
+    display: block;
+    font-size: 26px;
+    line-height: 40px;
+    color: #2186ff;
+}
+.navbar-toggle i.menu-open {
+    display: none;
+}
+.navbar-toggle.collapsed .menu-open {
+    display: block;
+    color: #2186ff;
+}
+.navbar-toggle.collapsed .menu-close {
+    display: none;
+}
+.navbar-brand {
+    float: left;
+    padding: 0;
+}
+
+
+
+
+/* ==========================================================================
+   header section end
+========================================================================== */
+
+/* ==========================================================================
+   Service Section Start 
+========================================================================== */
+.info-section{
+    width:100%;
+    padding:50px 0 75px 0;;
+    position: relative;
+    z-index: 1;
+    background-color: #f0f0f0;
+}
+.info-section h2{
+    font-weight: 400;
+    font-size: 40px;
+    font-family: lato light, sans-serif;
+    margin: 0;
+    color: #343434;
+    padding-top: 12px;
+    padding-bottom: 4px;
+}
+.info-section h6{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: lato light, sans-serif;
+    color: #343434;
+    margin: 0;
+    padding-bottom: 17px;
+}
+.info-section p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: lato, sans-serif;
+    color:#343434;    
+    margin: 0;
+    padding-bottom: 27px;
+}
+
+.info-section h3{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: lato, sans-serif;
+    color: #444444;
+    padding-bottom: 22px;
+    margin: 0;
+    padding-top: 12px;
+}
+.info-section p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: lato, sans-serif;
+    color: #666666;
+    line-height: 1.9rem;
+    padding: 0 90px 45px 90px;
+}
+.info-section .box h2{
+    font-size:24px;
+    margin-bottom:20px;
+    margin-top:0;
+}
+
+.info-section .box i{
+    font-size:20px;
+}
+.info-section .box{
+    display:flex;
+}
+.info-section .text-box{
+    flex:1 1 0;
+    text-align:left;
+}
+.info-section .icon-box{
+    line-height: 1.2;
+    width:70px;
+}
+.info-section .service-block-overlay{
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    background: #f7f7f7;/*
+    padding: 14px 70px 33px 70px;*/
+}
+.info-section .service-block-overlay:hover{
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.1);/*
+    float: left;
+    margin-top: -10px;*/
+    position: relative;
+    width: 100%;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+}
+.service-block-overlay i {
+    font-size: 50px;
+    padding: 45px 0 0px 0;;
+    color: #666666;
+}
+.infobutton {
+    padding-bottom: 32px;
+}
+.service-block-overlay .btn {    
+    padding: 13px 20px 9px 20px;
+    border-color: #d7d7d7;
+    color: #444444;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 0;
+}
+.service-block-overlay .btn:hover {
+    color:#ff0000;
+    font-weight: 700;
+    border-color: #ff0000;
+    background-color: transparent;
+}
+
+.maincontent {
+    padding-bottom: 30px;
+}
+
+/* ==========================================================================
+   Service Section end
+========================================================================== */
+/* ==========================================================================
+   LOGIN MODAL Section start
+========================================================================== */
+.seminor-login-modal-body {
+    padding: 16px 10px 17px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.seminor-login-modal-body h3 {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: lato light, sans-serif;
+    color: #343434;
+    text-align: center;
+}
+.seminor-login-modal-body .close {
+    position: relative;
+    top: -73px;
+    left: 0px;
+    color: #ff0000;
+    font-size: 40px;
+}
+.seminor-login-modal-body .close:hover{
+    color: #3fecfe;
+}
+.seminor-login-modal-body .close{
+    opacity:0.75;
+}
+
+.seminor-login-modal-body .close:focus, .seminor-login-modal-body .close:hover {
+    color: #39e8b0;
+     opacity: 1;
+     text-decoration: none;
+     outline:0;
+}
+
+.seminor-login-modal .modal-dialog .modal-content{
+    border-radius:0px;
+}
+
+
+.field-container {
+  position: relative;
+  margin-top:25px;
+  font-family: 'Roboto', sans-serif;
+}
+.field {
+    display: block;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    border: 0px solid #ced4da !important;
+    border-bottom: 1px solid #ccc !important;
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+.field:focus {
+  outline: 0;
+}
+.floating-label {
+  position:absolute;
+  pointer-events:none;
+  top: 15px;
+  left:5px;
+  font-size: 10px;
+  opacity:0;
+  background-color: transparent;
+  padding: 0 2px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+.field:valid + .floating-label {
+  opacity:1;
+  top:-15px;
+  color: #9e9e9e;
+}
+.field:focus + .floating-label {
+  color: #03a9f4;
+}
+
+.field-underline {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:-5px;
+  border:1px solid #9e9e9e;
+  z-index: -1;
+  padding:10px 10px 0;
+}
+.field:focus + .floating-label + .field-underline {
+  border-color:#03a9f4;
+}
+
+
+.btn-check-log {
+    padding-top: 20px;
+}
+.btn-check-log .btn-check-login {
+    font-size: 20px;
+    padding: 5px 0;
+}
+button.btn-check-login:hover {
+    color: #fff;
+    background-color: #3fecfe;
+    border: 2px solid #3fecfe;
+}
+.btn-check-login {
+     color: #ffff;
+     background-color: #ff0000;
+     border: 2px solid #ff0000;
+     transition: all ease-in-out .3s;
+}
+.btn-check-login {
+     display: inline-block;
+     padding: 12px 0;
+     margin-bottom: 0;
+     line-height: 1.42857143;
+     text-align: center;
+     white-space: nowrap;
+     vertical-align: middle;
+     -ms-touch-action: manipulation;
+     touch-action: manipulation;
+     cursor: pointer;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     background-image: none;
+     border-radius: 0;
+     width: 100%;
+}
+
+.text-primary-fau {
+    color: #1959a2;
+}
+
+.select-form-control-placeholder{
+    font-size: 100%;
+    padding: 7px 0 0 13px;
+    margin: 0;
+}
+
+
+/* ==========================================================================
+   LOGIN MODAL Section end
+========================================================================== */
+/* ==========================================================================
+   Releases Section start
+========================================================================== */
+.Releases{
+    width:100%;
+    padding:60px 0 90px 0;
+    background: #fff;
+}
+.Releases h2{
+    font-weight: 400;
+    font-size: 30px;
+    font-family: lato light, sans-serif;
+    margin: 0;
+    color: #343434;
+}
+.Releases h1{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: roboto, sans-serif;
+    margin: 0;
+    color: #444;
+    padding-bottom: 18px;
+}
+.Releases h3{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: roboto, sans-serif;
+    margin: 0;
+    color: #444;
+    padding-bottom: 12px;
+}
+.Releases h6{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: lato light, sans-serif;
+    color: #343434;
+    margin: 0;
+    padding-bottom: 16px;
+}
+.Releases p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: lato, sans-serif;
+    color:#343434;    
+    margin: 0;
+    padding-bottom: 45px;
+}
+.Releasescontent {
+    padding-bottom: 10px;
+}
+.Releases .btn {
+    padding: 9px 23px 7px 23px;
+    border-color: #d7d7d7;
+    color: #444444;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 0;
+}
+.Releases .btn:hover {
+    color:#ff0000;
+    font-weight: 700;
+    border-color: #ff0000;
+    background-color: transparent;
+}
+
+.reimg {
+    float: left;
+}
+.reimg {
+    padding: 0 30px 0px 0;
+}
+/* ==========================================================================
+   Releases Section end
+========================================================================== */
+
+
+/* ==========================================================================
+   FAQ Section start 
+========================================================================== */
+
+.accordion-section {
+    padding: 60px 0 38px 0;
+    background: #f0f0f0;
+}
+
+.accordion-section h2 {
+    font-weight: 400;
+    font-size: 30px;
+    font-family: lato light, sans-serif;
+    margin: 0;
+    color: #343434;
+}
+.accordion-section h6 {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: lato light, sans-serif;
+    color: #343434;
+    margin-top: -5px;
+    padding-bottom: 4px;
+}
+
+.accordion-section h4 {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: lato, sans-serif;
+    color:#343434;    
+    margin: 0;
+    padding: 0 0 55px 0;
+}
+
+.panel-group .panel-heading {
+    padding: 14px 0 18px 0;
+    background: #e3e3e3;
+}
+
+
+.accordion-section .panel-group .faqq {
+    float: left;
+}
+
+.accordion-section .panel-group .faqq h1 {
+    background: #d1d1d1;
+    color: #444;
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 15px 20px 17px 25px;
+}
+.accordion-section .panel-group .panelheader .panel-title a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #444;
+    font-weight: 400;
+    font-family: lato, sans-serif;
+    padding: 0 0px 0 30px;
+}
+.accordion-section .panel-body {
+    padding: 0;
+}
+.accordion-section .faqa {
+    float: left;
+}
+.accordion-section .faqa h1{
+    padding: 35px 50px 4px 25px;
+    color: #444;
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.accordion-section p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: lato, sans-serif;
+    color:#343434;    
+    margin: 0;
+    padding: 30px 0 0 0;
+}
+.panelheader {
+    padding-bottom: 30px;
+}
+/* ==========================================================================
+   FAQ Section End 
+========================================================================== */
+
+
+/* ==========================================================================
+   blog Section start
+========================================================================== */
+.blog {
+    background: #fff;
+    padding: 57px 0 55px 0;
+}
+
+.blog h2{
+    font-weight: 400;
+    font-size: 30px;
+    font-family: lato light, sans-serif;
+    margin: 0;
+    color: #343434;
+}
+.blog h6{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: lato light, sans-serif;
+    color: #343434;
+    margin: 0;
+    padding-bottom: 7px;
+    margin-top: -5px;
+}
+.blog p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: lato, sans-serif;
+    color:#343434;    
+    margin: 0;
+    padding-bottom: 55px;
+}
+
+.blog .card .card-body h5 {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: lato, sans-serif;
+    color: #444444;
+    margin: 0;
+    padding: 20px 0 0 16px;
+}
+.blog .card .card-body h4 {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: lato, sans-serif;
+    color: #666;
+    padding: 9px 17px 29px 17px;
+}
+.blog .card .card-body strong {
+    color: #ff0000;
+}
+.blog .card .card-body a {
+    text-decoration: none;
+}
+.blog .card .card-body  {
+    text-align: left;
+}
+.blog .cardborder  {
+    border: none;
+    border-radius: 0;
+    background: #f0f0f0;
+}
+
+.swiper-container img {width:100%;}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/* ==========================================================================
+   blog Section End 
+========================================================================== */
+
+
+
+
+/* ==========================================================================
+   Testimonials Section start 
+========================================================================== */
+
+.Testimonials {
+    padding: 49px 0 72px 0;
+    background-color: #f0f0f0;
+}
+
+.Testimonials h2 {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: lato light, sans-serif;
+    color: #343434;
+    margin: 0;
+    padding-bottom: 16px;
+    padding-left: 75px;
+}
+
+.Testimonials p {
+    font-family: lato, sans-serif;
+    color: #444444;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 22px;
+    padding: 0px 120px 0 120px;
+}
+.Testimonials h1 {
+    font-family: lato, sans-serif;
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 23px 0 7px 265px;
+}
+.Testimonials h3 {
+    font-family: lato, sans-serif;
+    color: #444444;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 0 45px 265px;
+}
+
+
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+  text-align: left;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #fff;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #ff0000;
+}
+/* End carousel */
+
+.Testimonials .item  {
+    margin-top: -5px;
+}
+
+
+.Testimonials .item  p:before {
+    content: url(img/ticon.png);
+    float: left;
+    margin-right: 85px;
+    padding-bottom: 150px;
+}
+
+
+/* ==========================================================================
+   Testimonials Section End 
+========================================================================== */
+
+
+/* ==========================================================================
+   footer Section start
+========================================================================== */
+
+
+.footer_areatop {
+    background-color: #fff;
+}
+.footer_areatop ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+.footercontent {}
+.footercontent img {
+    padding: 70px 0 17px 0;
+}
+
+.footercontent h1 {
+    font-size: 12px;
+    color: #777;
+    font-weight: 400;
+    font-family: roboto, sans-serif;
+    margin: 0;
+    padding-bottom: 67px;
+}
+.footercontent i {
+    font-size: 19px;
+    float: left;
+}
+.footercategory {
+    padding: 68px 0 0px 0;
+}
+.footercategory h5 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 23px;
+}
+
+.footercategory a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: roboto, sans-serif;
+}
+.track a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: roboto, sans-serif;
+}
+
+.footercategory a:hover,
+.footercategory a:focus {
+    text-decoration: none;
+    color: #ff0000;
+}
+.track a:hover,
+.track a:focus {
+    text-decoration: none;
+    color: #ff0000;
+}
+.track {
+    padding: 109px 0 0 0;
+    margin: 0;
+}
+.bkash a {
+    background-image: url(img/bird.png);
+    display: block;
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.skrill img {
+    padding: 0;
+}
+.footer_areatop i {
+    padding-right: 5px;
+    color: #666666;
+}
+.footer_areatop p {
+    margin: 0;
+    padding-top: 4px;
+    display: inline-block;
+}
+
+/* ==========================================================================
+   footer Section end
+========================================================================== */
+
+/* ==========================================================================
+   return-to-top Section start
+========================================================================== */
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 99;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 17px;
+    top: 11px;
+    font-size: 25px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+/* ==========================================================================
+   return-to-top Section end
+========================================================================== */
+
+
+/* ==========================================================================
+   FAQ's Page
+========================================================================== */
+
+
+/* ==========================================================================
+  faq  header section start
+========================================================================== */
+.topfiq {
+    text-align: right;
+}
+.topcard .box span {
+    display:inline-flex;
+}
+.topcard .box ul {
+    margin-top: -4px;
+    padding:0;
+}
+.topcard .box ul li {
+    list-style:none;
+    float:left;
+}
+.topcard .box ul li a {
+    display:block;
+    color:#444;
+    margin:0 10px;
+    font-size:20px;
+    transition:0.5s;
+    text-align:center;
+}
+.topcard .box ul li:hover a {
+    color:#ff0000;
+    transform:rotateY(360deg);
+}
+.topfiq .topcard .box h1 {
+    font-size: 14px;
+    color: #444;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;
+    padding-top: 3px;
+}
+.topfiq .topcard .box strong:before {
+    content: "|";
+    margin-left: 6px;
+    margin-right: 10px;
+}
+.topfiq .topcard .box strong {
+    margin-right: 10px;
+}
+.topfiq .topcard .box strong a {
+    color: #444;
+    font-weight: 400;
+    text-decoration: none;
+}
+.topfiq .topcard .box strong a:hover {
+    color: #ff0000;
+    font-weight: 400;
+}
+.topfiq .topcard .box i {
+    font-size: 14px;
+}
+
+#home-area .table {
+    margin-bottom: 0;
+}
+.logo h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.logo.footer-logo h2 {
+    color: #2727c1;
+}
+.logo a {
+    height: inherit;
+    padding: 0;
+}
+#faqmenu.stick {
+    background-color: #fff;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 0 20px 0 #0009;
+}
+.stick .topfiq{
+  display: none;
+}
+.stick .logo{
+  display: none;
+}
+
+.logonext {
+    display: none;
+}
+
+.stick .logonext{
+  display: block;
+}
+.faqmenu ul { 
+    margin: 0;
+    padding: 0;
+}
+.faqmenu li {
+    display: inline-block;
+    padding-left: 25px;
+    display: block;
+    position: relative;
+    float: left;
+    padding-top: 11px;
+    padding-bottom: 12px;
+}
+.faqmenu li a {
+    color: #444;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    font-family: roboto, sans-serif;
+    text-decoration: none;
+}
+.faqmenu {
+  padding-top: 4px;
+}
+.stick .faqmenu{
+  padding-top: 5px;
+}
+.faqmenu.navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0px;
+    padding-top: 8px;
+    float: right;
+}
+#faqmenu {
+    left: 0;
+    padding: 10px 0;
+    right: 0;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    z-index: 9999;
+    background: #fff;
+}
+.faqmenu.float-right li:first-child {
+    padding-left: 0;
+}
+.faqmenu nav ul li a::before {
+    background: #ff0000 none repeat scroll 0 0;
+    bottom: -5px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    width: 100%;
+    transition: all 0.3s ease 0s;
+}
+.faqmenu nav ul li.active a::before,
+.faqmenu nav ul li a:hover::before {
+    transform: scale(1);
+}
+.main-slider-area {
+  padding-top: 100px;
+}
+/*-- Navbar Toggle --*/
+
+.navbar-toggle {
+    width: 40px;
+    height: 40px;
+    color: #333;
+    border-radius: 0;
+    padding: 0;
+    text-align: center;
+    border: none;
+    margin: 0;
+}
+.navbar-toggle i {
+    display: block;
+    font-size: 26px;
+    line-height: 40px;
+    color: #ff0000;
+}
+.navbar-toggle i.menu-open {
+    display: none;
+}
+.navbar-toggle.collapsed .menu-open {
+    display: block;
+    color: #ff0000;
+}
+.navbar-toggle.collapsed .menu-close {
+    display: none;
+}
+.navbar-brand {
+    float: left;
+    padding: 0;
+}
+
+
+
+
+/*-- submenu --*/
+.faqmenu ul li ul {
+    position: absolute;
+    visibility: hidden;
+    z-index: 10;
+    opacity: 0;
+    background-color: #fff;
+
+}
+.faqmenu ul li:focus ul,
+.faqmenu ul li:focus-within ul,
+.faqmenu ul li:hover ul {
+
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+     padding: 8px;
+    -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+}
+.faqmenu ul li:hover ul li {
+    float: none; 
+    padding: 2px 20px 9px 0;
+}
+
+.faqmenu ul li ul li a {
+    white-space: nowrap;
+   
+}
+.faqmenu ul li ul li i {
+    margin-right: 8px;
+    font-size: 12px;   
+}
+
+.loginbtn  {
+    float: left;
+    padding: 5px 0 0 31px;
+}
+.faqmenu .btn {
+    padding: 8px 18px 8px 18px;
+    border-color: #ff0000;
+    color: #444;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 0;
+    background-color: transparent;
+}
+.faqmenu .btn:hover {
+    color: #ff0000;
+    background-color: transparent;
+    border-color: #ff0000;
+}
+
+
+
+
+/* ==========================================================================
+  faq  header section end
+========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+   Faqslider Section start
+========================================================================== */
+.faqaboutslider {
+    padding: 112px 0 118px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.faqaboutslider img {
+    
+}
+.faqaboutslider h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    font-family: lato black, sans-serif;
+    padding-bottom: 18px;
+}
+
+.faqaboutslider strong {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    font-family: lato light, sans-serif;
+}
+
+.faqaboutslider h2 {
+   font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    font-family: lato, sans-serif;
+}
+/* ==========================================================================
+   Faqslider Section end
+========================================================================== */
+
+
+
+.faqpagecontent {
+    text-align: left;
+}
+.faqpage h2 {
+    padding-bottom: 16px;
+}
+.faqpage strong {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: lato black, sans-serif;
+    color: #343434;
+    margin-top: -5px;
+    padding-bottom: 4px;
+}
+
+.faqpage .faqpageq h1 {
+    padding: 35px 50px 65px 25px;
+}
+
+
+.faqTestimonials {
+    background-color: #e3e3e3;
+}
+
+
+/* ==========================================================================
+   download Page
+========================================================================== */
+
+.downloadbody {
+    background: #f0f0f0;
+}
+
+
+
+.bodytop h1 {
+    font-size: 30px;
+    color: #343434;
+    margin: 0;
+    font-weight: 400;
+    font-family: lato light, sans-serif;
+    padding-top: 92px;
+}
+
+.bodytop strong {
+    font-size: 40px;
+    color: #343434;
+    margin: 0;
+    font-weight: 400;
+    font-family: lato black, sans-serif;
+}
+.bodytop h2 {
+    font-size: 40px;
+    color: #343434;
+    margin: 0;
+    font-weight: 400;
+    font-family: lato light, sans-serif;
+    margin-top: -7px;
+    padding-bottom: 7px;
+}
+
+.bodytop strong {
+    font-size: 40px;
+    color: #343434;
+    margin: 0;
+    font-weight: 400;
+    font-family: lato black, sans-serif;
+}
+
+.bodytop p {
+   font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    margin: 0;
+    font-family: lato, sans-serif;
+    padding-bottom: 47px;
+}
+
+.bodybottom h1 {
+    font-size: 40px;
+    color: #343434;
+    margin: 0;
+    font-weight: 400;
+    font-family: lato light, sans-serif;
+    padding-bottom: 17px;
+}
+
+.bodybottom strong {
+    font-size: 40px;
+    color: #343434;
+    margin: 0;
+    font-weight: 400;
+    font-family: lato black, sans-serif;
+}
+
+.bodybottom p {
+   font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    margin: 0;
+    font-family: lato, sans-serif;
+    padding-bottom: 70px;
+}
+.bodybutton {
+    padding-bottom: 92px;
+}
+.bodybutton .btn {
+     color: #ffff;
+     background-color: #ff0000;
+     border: 2px solid #ff0000;
+     transition: all ease-in-out .3s;
+     text-transform: uppercase;
+    padding: 19px 38px 17px 38px
+}
+
+.bodybutton .btn:hover {
+    color: #fff;
+    background-color: #3fecfe;
+    border: 2px solid #3fecfe;
+}
+
+.orcontent {
+    padding-top: 245px;
+}
+.orcontent h1 {
+     font-size: 30px;
+    color: #000;
+    font-weight: 400;
+    margin: 0;
+    font-family: lato light, sans-serif;
+}
+.appsdownload h1 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 400;
+    margin: 0;
+    font-family: lato light, sans-serif;
+    padding-top: 193px;
+    padding-bottom: 13px;
+}
+.downloadbutton {}
+.downloadbutton a {
+    color: #ffffff;
+    cursor: pointer;
+    line-height: 15px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    background: #ff0000;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    margin-top: 10px;
+}
+.downloadbutton img {
+    float: left;
+    padding: 11px 23px 11px 10px;
+}
+.downloadbutton h5 {
+    text-align: left;
+    font-size: 11px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 20px 0 0px;
+    font-family: roboto;
+    float: right;
+}
+.downloadbutton strong {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: roboto;
+}
+.downloadbutton i {
+    float: left;
+    padding: 11px 29px 11px 10px;
+    font-size: 33px;
+}
+.downloadbutton a:hover {
+    background-color: #3fecfe;
+}
+
+/* ==========================================================================
+   Pricing Page
+========================================================================== */
+
+.pricingright {
+    padding-top: 107px;
+    padding-bottom: 69px;
+}
+.pricingright h1 {
+    font-size: 20px;
+    color: #444;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;
+    padding-bottom: 27px;
+}
+.pricingright i {
+    color: #ff0000;
+    padding-bottom: 25px;
+    float: left;
+    padding-right: 22px;
+}
+.pricingbutton {
+    text-align: center;
+    padding-bottom: 105px;
+}
+.pricingbutton .btn {
+     color: #ffff;
+     background-color: #ff0000;
+     border: 2px solid #ff0000;
+     transition: all ease-in-out .3s;
+    padding: 19px 38px 17px 38px
+}
+
+.pricingbutton .btn:hover {
+    color: #fff;
+    background-color: #3fecfe;
+    border: 2px solid #3fecfe;
+}
+
+
+
+/* ==========================================================================
+   Product Page
+========================================================================== */
+
+.productbody {
+    background-color: #f0f0f0;
+    padding: 110px 0 85px 0;
+}
+.bodyslide {
+    position:relative;
+    overflow:hidden;
+    margin-bottom: 30px;
+}
+ 
+.caption {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(33, 134, 255, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.bodyslide:hover .caption {
+    top:0%;
+}
+    
+.productbody .bodyslide .caption h4 {
+    font-family: roboto,sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 18px;
+    padding-top: 59px;
+}
+.productbutton {
+    text-align: center;
+}
+.productbutton .btn {
+    color: #444444;
+    background-color: #fff;
+    border: 2px solid #fff;
+    transition: all ease-in-out .3s;
+    padding: 7px 23px 6px 23px;
+    font-size: 12px;
+    font-family: lato,sans-serif;
+    border-radius: 0;
+}
+.productbutton .btn:hover {
+    color: #fff;
+    background-color: #3fecfe;
+    border: 2px solid #3fecfe;
+}
+
+.productpic {
+    padding: 53px 0 54px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.productpic h3 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;
+    padding-bottom: 4px;
+}
+
+.productpic strong {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+
+.productpic h4 {
+   font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+
+.productbutoon {
+    text-align: left;
+}
+.productbutoon .btn {
+     color: #ffff;
+     background-color: #ff0000;
+     border: 2px solid #ff0000;
+     transition: all ease-in-out .3s;
+    padding: 19px 38px 17px 38px
+}
+
+.productbutoon .btn:hover {
+    color: #fff;
+    background-color: #3fecfe;
+    border: 2px solid #3fecfe;
+}
+
+
+/* ==========================================================================
+   version Page
+========================================================================== */
+
+
+
+.versionbody{
+    padding:70px 0 50px 0;
+    background: #f0f0f0;
+}
+
+.versionbodycontent h1{
+    font-weight: 400;
+    font-size: 30px;
+    font-family: roboto, sans-serif;
+    margin: 0;
+    color: #444;
+}
+.versionbodycontent h3{
+    font-weight: 400;
+    font-size: 34px;
+    font-family: roboto, sans-serif;
+    margin: 0;
+    color: #444;
+    padding-bottom: 20px;
+}
+
+.versionbodycontent p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: lato, sans-serif;
+    color:#343434;    
+    margin: 0;
+    padding-bottom: 25px;
+}
+.versionbodycontent {
+    padding-bottom: 10px;
+}
+.versionbodycontent .btn {
+    padding: 9px 23px 7px 23px;
+    border-color: #d7d7d7;
+    color: #444444;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 0;
+}
+.versionbodycontent .btn:hover {
+    color:#ff0000;
+    font-weight: 700;
+    border-color: #ff0000;
+    background-color: transparent;
+}
+
+.versionimg {
+    padding: 0 32px 50px 0;
+    float: left;
+}
+/* ==========================================================================
+   versiondetails Page
+========================================================================== */
+
+.versiondetailsimg {
+    padding: 0 32px 180px 0;
+    float: left;
+}
+/* ==========================================================================
+  Aboutus Page
+========================================================================== */
+
+
+.aboutbody{
+    padding:70px 0 50px 0;
+    background: #f0f0f0;
+}
+
+.aboutbody h1{
+    font-weight: 400;
+    font-size: 30px;
+    font-family: roboto, sans-serif;
+    margin: 0;
+    color: #444;
+}
+.aboutbody h3{
+    font-weight: 400;
+    font-size: 34px;
+    font-family: roboto, sans-serif;
+    margin: 0;
+    color: #444;
+    padding-bottom: 20px;
+}
+
+.aboutbody p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: lato, sans-serif;
+    color:#343434;    
+    margin: 0;
+    padding-bottom: 25px;
+}
+.aboutbody {
+    padding-bottom: 10px;
+}
+
+.aboutimg img {
+    width: 100%;
+}
+.aboutimg {
+    padding: 0 100px 40px 0;
+    float: left;
+}
+
+
+/* ==========================================================================
+  qoute Page
+========================================================================== */
+
+
+.qoutebody {
+    background-color: #f0f0f0;
+}
+.qoutetopheader {
+
+}
+.qoutetopheader h1 {
+    font-size: 40px;
+    color: #343434;
+    font-weight: 400;
+    margin: 0;
+    font-family: lato black, sans-serif;
+    padding-top: 100px;
+    padding-bottom: 23px;
+}
+
+.qoutetopheader strong {
+    font-size: 40px;
+    color: #343434;
+    font-weight: 400;
+    margin: 0;
+    font-family: lato light, sans-serif;
+}
+.qoutetopheader p {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;
+    padding-bottom: 30px;
+}
+.qoutetopheader h2 {
+   font-size: 14px;
+    color: #666;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;
+    padding-bottom: 53px;
+}
+.qoutemiddle {
+    background: #fff;
+    margin: 0px 0 100px;
+}
+
+.qoutemiddledetails {
+    
+}
+.qoutemiddledetails h1 {
+    font-size: 20px;
+    color: #444;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;   
+    padding-bottom: 5px;
+    padding-top: 39px;
+}
+.qoutemiddledetails p {
+    font-size: 14px;
+    color: #444;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;
+    padding-bottom: 33px;
+}
+.qoutefrom label {
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: #444;
+    font-family: robot,sans-serif;
+}
+.formfiled {
+    padding-bottom: 30px;
+}
+.formfiled .form-control {
+    background: #f0f0f0;
+    border: 0;
+    border-radius: 0;
+}
+
+.projectdetails h1 {
+    font-size: 20px;
+    color: #444;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;   
+    padding-bottom: 5px;
+    padding-top: 12px;
+}
+.projectdetails p {
+    font-size: 14px;
+    color: #444;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;
+    padding-bottom: 30px;
+}
+
+.projecttype h1 {
+    font-size: 16px;
+    color: #444;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;   
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+
+.checkboxinfo  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checkboxcontent {
+    padding-bottom: 25px;
+}
+.checkboxinfo h1 {
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+    font-family: roboto,sans-serif;
+    margin: 0;
+    padding-top: 5px;
+}
+/* Hide the browser's default checkbox */
+.checkboxinfo  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 1px solid #949494;
+}
+
+/* On mouse-over, add a grey background color */
+.checkboxinfo  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkboxinfo .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkboxinfo  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkboxinfo  .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkboxinfo .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+.Budget h1 {
+    font-size: 16px;
+    color: #444;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;   
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+.qoutebutoon {
+    text-align: center;
+    padding-bottom: 80px;
+}
+.qoutebutoon .btn {
+     color: #ffff;
+     background-color: #ff0000;
+     border: 2px solid #ff0000;
+     transition: all ease-in-out .3s;
+    padding: 19px 71px 17px 71px;
+    text-transform: uppercase;
+}
+
+.qoutebutoon .btn:hover {
+    color: #fff;
+    background-color: #3fecfe;
+    border: 2px solid #3fecfe;
+}
+
+
+/* ==========================================================================
+  contact Page
+========================================================================== */
+
+
+.contactbody {
+    background: #f0f0f0;
+    padding-bottom: 40px;
+}
+
+.contactop h1 {
+    font-size: 30px;
+    color: #343434;
+    margin: 0;
+    font-weight: 400;
+    font-family: lato light, sans-serif;
+    padding-top: 92px;
+    padding-bottom: 8px;
+}
+
+.contactop strong {
+    font-size: 40px;
+    color: #343434;
+    margin: 0;
+    font-weight: 400;
+    font-family: lato black, sans-serif;
+}
+.contactmiddle h1 {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;
+    padding: 11px 0 7px 13px
+}
+.contactmiddle h2 {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;
+    padding: 0px 0 12px 13px;
+}
+.contactmiddle {
+    background-color: #fff;
+    margin-right: -15px;
+}
+.contactmiddle a {
+   font-weight: 400;
+   color: #666;
+}
+
+.contactmiddle a:hover {
+   color: #ff0000;
+}
+.contactbottom h1 {
+    font-size: 30px;
+    color: #666666;
+    font-weight: 400;
+    margin: 0;
+    font-family: lato light, sans-serif;
+    padding: 11px 0 11px 0;
+}
+.contactbottom p {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+.contactfrom{
+    background-color: #FFF;
+    margin-top: 72px;
+    padding-top: 100px;
+    padding-bottom: 66px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.contactfiled {
+    padding-bottom: 15px;
+}
+
+.contactfiled .form-control {
+    background: #f0f0f0;
+    border: 0;
+    border-radius: 0;
+}
+.contactbutoon {
+    text-align: left;
+}
+.contactbutoon .btn {
+    color: #ffff;
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+    transition: all ease-in-out .3s;
+    padding: 9px 24px 7px 24px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.contactbutoon .btn:hover {
+    color: #fff;
+    background-color: #3fecfe;
+    border: 2px solid #3fecfe;
+}
+.Location {
+    background-color: #f0f0f0;
+}
+.Location h1 {
+    font-size: 30px;
+    color: #343434;
+    font-weight: 400;
+    margin: 0;
+    font-family: lato light, sans-serif;   
+    padding-bottom: 26px;
+    padding-top: 0px;
+}
+iframe {
+    width: 100%;
+    height: 415px;
+}
+
+/* ==========================================================================
+  End css
+========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+========================================================================== */
+
+@media screen and (max-width: 991px) {
+
+
+.main-menu li {
+    padding-left: 13px;
+    padding-top: 8px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.main-menu li a {
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+.loginbtn {
+    padding: 0px 0 0 10px;
+}
+.main-menu .btn {
+    padding: 8px 10px 7px 10px;
+}
+.faqmenu li {
+    padding-left: 13px;
+    padding-top: 8px;
+}
+.faqmenu li a {
+    font-size: 14px;
+}
+.loginbtn {
+    padding: 0px 0 0 10px;
+}
+.faqmenu .btn {
+    padding: 8px 10px 7px 10px;
+}
+.service-block-overlay .btn {
+    padding: 13px 10px 9px 10px;
+}
+.info-section p {
+    padding: 0 30px 45px 30px;
+}
+.Testimonials .item p:before {
+    margin-right: 15px;
+    padding-bottom: 30px;
+}
+.Testimonials h2 {
+    text-align: center;
+    padding-right: 270px;
+}
+.Testimonials p {
+    font-size: 15px;
+    padding: 0px 80px 0 80px;
+}
+.Testimonials h1 {
+    padding: 23px 0 7px 160px;
+}
+.Testimonials h3 {
+    padding: 0 0 45px 160px;
+}
+.faqpage .faqpageq h1 {
+    padding: 35px 50px 100px 25px;
+}
+.faqaboutslider {
+    padding: 92px 0 98px;
+}
+.productpic h3 {
+    font-size: 25px;
+}
+.productpic h4 {
+    font-size: 25px;
+}
+.productbutoon .btn {
+    padding: 10px 11px 10px 11px;
+}
+.productpic {
+    padding: 43px 0 44px;
+}
+.versionbodycontent h1 {
+    font-size: 20px;
+}
+.versionbodycontent h3 {
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+.versionbodycontent p { 
+    padding-bottom: 5px;
+}
+}
+
+@media screen and (max-width: 767px) {
+ul.dropdown-menu.show {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.dropdown-menu>li>a {
+    color: #777;
+}
+.navbar-brand>img {
+    margin-left: 5px;
+}
+.main-menu li {
+    padding-bottom: 0px;
+}
+.navbar-default {
+    position: relative;
+    background: #fff;
+}
+.navbar-nav {
+    margin: 0px;
+}
+.nav>li>a {
+    padding: 3px 13px 17px 0px;
+}
+.headermenu ul li:last-child ul {
+  left: 0px;
+  right: auto;
+}
+.main-menu.navbar-collapse {
+    padding-bottom: 54px;
+    padding-top: 3px;
+}
+.main-menu ul li:focus ul, .main-menu ul li:focus-within ul, .main-menu ul li:hover ul {
+    padding: 4px;
+}
+.main-menu ul li:hover ul li {
+    padding: 2px 20px 5px 0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    margin-top: 0px;
+    float: none;
+    padding-left: 10px;
+}
+.bodytop p {
+    padding-bottom: 25px;
+}
+.bodybottom p {
+    padding-bottom: 20px;
+}
+.bodybutton {
+    padding-bottom: 0;
+}
+.orcontent {
+    padding-top: 90px;
+    text-align: center;
+}
+.appsdownload h1 {
+    padding-top: 39px;
+}
+.downloadbutton {
+    padding-bottom: 60px;
+}
+.faqmenu li {
+    padding-bottom: 0px;
+}
+
+.faqmenu.navbar-collapse {
+    padding-bottom: 54px;
+    padding-top: 3px;
+}
+.faqmenu ul li:focus ul, .main-menu ul li:focus-within ul, .main-menu ul li:hover ul {
+    padding: 4px;
+}
+.faqmenu ul li:hover ul li {
+    padding: 2px 20px 5px 0;
+}
+
+.navbar-toggle {
+    padding-top: 5px;
+}
+.Testimonials h2 {
+    padding-right: 290px;
+}
+.footercontent {
+    text-align: center;
+}
+.footercontent img {
+    padding: 20px 0 17px 0;
+}
+.footercontent h1 {
+    padding-bottom: 0;
+}
+.footercategory {
+    padding: 30px 0 0px 0;
+}
+.track {
+    padding: 63px 0 7px 0;
+}
+
+.swiper-slide {
+    padding: 10px;
+}
+.faqaboutslider {
+    padding: 50px 0 50px;
+}
+.qoutemiddle {
+    padding: 30px;
+}
+.versionimg {
+    padding: 0 0px 20px 0;
+    float: none;
+}
+.versiondetailsimg {
+    padding: 0 0px 18px 0;
+    float: none;
+}
+
+}
+
+
+
+
+
+
+ 
+
+
+
+@media screen and (max-width: 480px) {
+.headertop .card .box strong a {
+    font-size: 12px;
+}
+.headertop .card .box strong {
+    margin-right: 4px;
+    padding: 2px;
+}
+
+.headertop .card .box strong:before {
+    margin-left: 0px;
+    margin-right: 2px;
+}
+
+.card .box ul li a {
+    margin: 0 3px;
+    font-size: 18px;
+}
+.main-menu.navbar-collapse {
+    padding-left: 62px;
+}
+.main-menu li a {
+    font-size: 13px;
+}
+.main-menu li {
+    padding-left: 10px;
+}
+.panel-group .panel-heading {
+    /*padding: 14px 0 18px 80px;*/
+}
+.panel-title {
+    margin-left: 75px;
+}
+.main-menu.navbar-collapse {
+    padding-bottom: 30px;
+}
+.faqmenu.navbar-collapse {
+    padding-left: 62px;
+}
+.faqmenu li a {
+    font-size: 13px;
+}
+.faqmenu li {
+    padding-left: 10px;
+}
+.faqmenu.navbar-collapse {
+    padding-bottom: 30px;
+}
+
+.reimg {
+   float: none;
+}
+.reimg {
+    padding: 0 10px 0px 0;
+}
+
+.Releases p {
+    padding-bottom: 28px;
+}
+
+.Releases .btn {
+    padding: 9px 13px 7px 13px;
+}
+
+.accordion-section .panel-group .panelheader .panel-title a {
+    padding: 0 ;
+    font-size: 13px;
+}
+
+.accordion-section .panel-group .faqq h1 {
+    padding: 21px 20px 25px 25px;
+}
+.accordion-section .faqa h1 {
+    padding: 55px 15px 0px 0px;
+}
+.accordion-section p {
+    word-break: break-all;
+}
+.blog .card .card-body h5 {
+    font-size: 14px;
+    padding: 5px 0 0 3px;
+}
+.blog .card .card-body h4 {
+    font-size: 12px;
+    padding: 0px 0px 10px 4px;
+} 
+.Testimonials p {
+    font-size: 13px;
+    padding: 0px 45px 0 45px;
+}
+.Testimonials .item p:before {
+    margin-right: 15px;
+    padding-bottom: 0px;
+    word-break: break-all;
+}
+.Testimonials h2 {
+    padding: 0;
+    text-align: center;
+}
+.Testimonials h1 {
+    padding: 23px 0 7px 118px;
+}
+.Testimonials h3 {
+    padding: 0 0 45px 118px;
+}
+
+.faqaboutslider h1 {
+    font-size: 20px;
+}
+.faqaboutslider strong {
+    font-size: 20px;
+}
+
+.faqaboutslider h2 {
+    font-size: 12px;
+}
+.faqaboutslider {
+    padding: 25px 0 25px;
+}
+.productpic h3 {
+    font-size: 20px;
+}
+.productpic h4 {
+    font-size: 20px;
+}
+
+.contactfrom {
+     padding-left: 0px;
+     padding-right: 0px;
+}
+.appsdownload h1 {
+    font-size: 25px;
+}
+.downloadbutton img {
+    padding: 2px 3px 1px 1px;
+}
+.downloadbutton h5 {
+    padding: 7px 3px 0 0px;
+    margin: 0;
+}
+.downloadbutton i {
+    padding: 1px 10px 1px 0px;
+}
+.qoutemiddle {
+    padding: 20px;
+}
+.versionbodycontent .btn {
+    padding: 9px 12px 7px 11px;
+}
+.versionimg {
+    padding: 0 0px 20px 0;
+    float: none;
+}
+.versiondetailsimg {
+    padding: 0 0px 18px 0;
+    float: none;
+}
+}
+

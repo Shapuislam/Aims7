@@ -1,0 +1,4 @@
+[16-Aug-2020 06:20:49 America/Chicago] PHP Warning:  include(/home1/aims7erp/public_html/../sp.aims7.com/app/config/database.php): failed to open stream: No such file or directory in /home1/aims7erp/public_html/sm/index.php on line 2
+[16-Aug-2020 06:20:49 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aims7erp/public_html/../sp.aims7.com/app/config/database.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/aims7erp/public_html/sm/index.php on line 2
+[16-Aug-2020 09:52:37 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/aims7erp/public_html/sm/index.php on line 16
+[16-Aug-2020 09:56:08 America/Chicago] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home1/aims7erp/public_html/sm/dbconnect.php on line 29

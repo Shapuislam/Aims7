@@ -1,0 +1,175 @@
+[13-Mar-2020 13:24:41 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', '8728', false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.13 in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:25:02 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', '8728', false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.13 in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:26:30 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', '8728', false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.13 in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:26:42 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', '8728', false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.13 in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:28:23 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131. in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:28:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131. in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:31:01 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131. in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:31:16 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131. in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:31:27 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131. in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:32:22 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131. in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:33:35 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131. in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:34:04 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131. in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:34:24 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131. in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:35:08 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', '8728', false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.13 in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:37:41 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8729 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', '8729', false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.13 in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:41:56 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131. in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:42:31 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131. in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:42:46 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8729 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', '8729', false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.13 in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:43:41 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34: (Failed to parse address &quot;103.131.157.34:&quot;)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 0, 'Failed to parse...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', '', false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicat in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:43:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', '8728', false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.13 in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:45:06 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', '8728', false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.13 in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:47:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', '60', 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', '8728', false, NULL, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.13 in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:48:58 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', 3, 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, 3, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131.157.34 in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:49:18 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', 3, 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, 3, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131.157.34 in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169
+[13-Mar-2020 13:49:40 America/Chicago] PHP Fatal error:  Uncaught exception 'PEAR2\Net\Transmitter\SocketException' with message 'stream_socket_client(): unable to connect to tcp://103.131.157.34:8728 (Connection refused)' in /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php:225
+Stack trace:
+#0 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/Stream.php(145): PEAR2\Net\Transmitter\TcpClient->createException('stream_socket_c...', 0)
+#1 [internal function]: PEAR2\Net\Transmitter\Stream->handleError(2, 'stream_socket_c...', '/home1/aims7erp...', 165, Array)
+#2 /home1/aims7erp/public_html/device/PEAR2/Net/Transmitter/TcpClient.php(165): stream_socket_client('tcp://103.131.1...', 111, 'Connection refu...', 3, 4, Resource id #8)
+#3 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php(167): PEAR2\Net\Transmitter\TcpClient->__construct('103.131.157.34', 8728, false, 3, 'admin/ad9090', '', NULL)
+#4 /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Client.php(164): PEAR2\Net\RouterOS\Communicator->__construct('103.131.157.34 in /home1/aims7erp/public_html/device/PEAR2/Net/RouterOS/Communicator.php on line 169

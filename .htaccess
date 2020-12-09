@@ -1,0 +1,15 @@
+# BEGIN custom php.ini PHP54
+<IfModule mod_suphp.c>
+    suPHP_ConfigPath /home/aims7erp/public_html/
+</IfModule>
+# END custom php.ini
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} !=on
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+    RewriteRule ^/?(.*) https://rnd.aims7.com/$1 [R,L]
+</IfModule>

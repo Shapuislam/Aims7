@@ -1,0 +1,24 @@
+[19-Jul-2020 23:12:47 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/aims7erp/public_html/registration.php on line 645
+[19-Jul-2020 23:13:28 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/aims7erp/public_html/registration.php on line 56
+[19-Jul-2020 23:13:28 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home1/aims7erp/public_html/registration.php on line 75
+[19-Jul-2020 23:16:04 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/aims7erp/public_html/registration.php on line 56
+[19-Jul-2020 23:16:45 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/aims7erp/public_html/registration.php on line 56
+[19-Jul-2020 23:19:00 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/aims7erp/public_html/registration.php on line 56
+[19-Jul-2020 23:20:58 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/aims7erp/public_html/registration.php on line 56
+[19-Jul-2020 23:21:14 America/Chicago] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home1/aims7erp/public_html/registration.php on line 56
+[19-Jul-2020 23:21:28 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/aims7erp/public_html/registration.php on line 56
+[19-Jul-2020 23:28:46 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/aims7erp/public_html/registration.php on line 58
+[19-Jul-2020 23:30:52 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/aims7erp/public_html/registration.php on line 56
+[19-Jul-2020 23:30:52 America/Chicago] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home1/aims7erp/public_html/registration.php on line 178
+[19-Jul-2020 23:31:37 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/aims7erp/public_html/registration.php on line 90
+[19-Jul-2020 23:48:49 America/Chicago] PHP Fatal error:  Class 'MyClass' not found in /home1/aims7erp/public_html/registration.php on line 159
+[16-Aug-2020 11:11:44 America/Chicago] PHP Warning:  include(/home1/aims7erp/public_html/isp.aims7.com/app/config/database.php): failed to open stream: No such file or directory in /home1/aims7erp/public_html/dbconnect.php on line 2
+[16-Aug-2020 11:11:44 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aims7erp/public_html/isp.aims7.com/app/config/database.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/aims7erp/public_html/dbconnect.php on line 2
+[16-Aug-2020 11:11:44 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/aims7erp/public_html/dbconnect.php on line 9
+[16-Aug-2020 11:11:44 America/Chicago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home1/aims7erp/public_html/dbconnect.php on line 10
+[16-Aug-2020 11:36:52 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home1/aims7erp/public_html/package.php on line 9
+[16-Aug-2020 11:37:39 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home1/aims7erp/public_html/package.php on line 9
+[27-Aug-2020 00:51:12 America/Chicago] PHP Warning:  include(/home1/rndaims7/public_html/../isp.aims7.com/app/config/database.php): failed to open stream: No such file or directory in /home1/rndaims7/public_html/dbconnect.php on line 2
+[27-Aug-2020 00:51:12 America/Chicago] PHP Warning:  include(): Failed opening '/home1/rndaims7/public_html/../isp.aims7.com/app/config/database.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/rndaims7/public_html/dbconnect.php on line 2
+[27-Aug-2020 00:51:12 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/rndaims7/public_html/dbconnect.php on line 9
+[27-Aug-2020 00:51:12 America/Chicago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home1/rndaims7/public_html/dbconnect.php on line 10

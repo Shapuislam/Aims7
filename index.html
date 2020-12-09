@@ -1,0 +1,903 @@
+<!doctype html> 
+<html class="no-js" lang=""> 
+    <head>   
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>AIMS7 SP - ISP Dish Gym management apps &amp; software.</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+        <!-- Place favicon.ico in the root directory -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!-- 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="all">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+        </style>
+    </head> 
+    <body>
+    <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v8.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="445078869555058">
+      </div>
+      
+        <!-- header Section Start -->
+        <nav class="navbar navbar-default sticker" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand logo" href="index.html"><img src="img/logo.png" alt=""></a>
+              <a class="navbar-brand logonext" href="index.html"><img src="img/miniLogo.png" alt=""></a>
+            </div>
+
+            <div class="headertop d-flex">
+                <div class="card">
+                    <div class="box">
+                        <span>
+                        <h1><strong><a href="">Get Started</a></strong></h1>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </span>
+                    </div>
+                </div>
+            </div> 
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse headermenu" id="bs-megadropdown-tabs">
+                <ul class="nav navbar-nav">
+
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="fa fa-angle-double-down" style="padding-left: 4px;"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="aboutus.html"><i class="fa fa-chevron-right" style="margin-right: 4px"></i>About AIMS7 ERP</a></li>
+
+                        <li><a href="workingArea.html"><i class="fa fa-chevron-right" style="margin-right: 4px"></i>Working Area</a></li>
+
+                        <li><a href="product.html"><i class="fa fa-chevron-right" style="margin-right: 4px"></i>Portfolio</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Softwares<span class="fa fa-angle-double-down" style="padding-left: 4px;"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="version.html"><i class="fa fa-chevron-right" style="margin-right: 4px"></i>AIMS7 ISP</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Apps<span class="fa fa-angle-double-down" style="padding-left: 4px;"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="version.html"><i class="fa fa-chevron-right" style="margin-right: 4px"></i>Version</a></li>
+
+                        <li><a href="versiondetails.html"><i class="fa fa-chevron-right" style="margin-right: 4px"></i>Version Details</a></li>
+                      </ul>
+                    </li>
+
+                    <li><a href="pricing.html">Pricing</a></li>
+
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support<span class="fa fa-angle-double-down" style="padding-left: 4px;"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="versiondetails.html"><i class="fa fa-chevron-right" style="margin-right: 4px"></i>Documentation</a></li>
+
+                        <li><a href="versiondetails.html"><i class="fa fa-chevron-right" style="margin-right: 4px"></i>Video Tutorials</a></li>
+
+                        <li><a href="faq.html"><i class="fa fa-chevron-right" style="margin-right: 4px"></i>FAQ's</a></li>
+
+                        <li><a href="#ve"><i class="fa fa-chevron-right" style="margin-right: 4px"></i>Support Forum</a></li>
+                      </ul>
+                    </li>
+
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                    <li><a href="registration.php">Registration</a></li>
+
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login<span class="fa fa-angle-double-down" style="padding-left: 4px;"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="http://isp.aims7.com/"><i class="fa fa-chevron-right" style="margin-right: 4px"></i>AIMS7 Login</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <!-- header Section end -->  
+         
+        <!-- slider Section Start -->
+        <section class="slider">
+            <!-- Bootstrap bootstrap-touch-slider Slider Main Style Sheet -->
+            <link href="css/bootstrap-touch-slider.css" rel="stylesheet" media="all">
+            
+            <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
+              
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+                    <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper For Slides -->
+                <div class="carousel-inner" role="listbox">
+
+                    <!-- Third Slide -->
+                    <div class="item active">
+
+                        <!-- Slide Background -->
+                        <img src="img/slider.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                        <div class="bs-slider-overlay"></div>
+
+                        <div class="container">
+                            <div class="row">
+                                <!-- Slide Text Layer -->
+                                <div class="slide-text slide_style_center">
+                                    <h1 data-animation="animated zoomInRight">Collect your Monthly / Yearly Bill</h1>
+                                    <h2 data-animation="animated flipInX">Even! if you are offline</h2>
+                                    <p data-animation="animated fadeInLeft">it’s in the palm of your hand to manage your customers via Apps</p>
+                                    <a href="https://play.google.com/store/apps/details?id=aims7.ityadi.com" target="_blank" class="btn btn-primary" data-animation="animated fadeInLeft"><img src="img/playlogo.png"><h5> Download from<br><strong>Play Store</strong></h5></a>
+                                    <!--<a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInRight">
+                                    <i class="fa fa-apple" aria-hidden="true"></i><h5> Download from<br><strong>App Store</strong></h5></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Slide -->
+
+                    <!-- Second Slide -->
+                    <div class="item">
+
+                        <!-- Slide Background -->
+                        <img src="img/slider1.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                        <div class="bs-slider-overlay"></div>
+                        <!-- Slide Text Layer -->
+                        <div class="slide-text slide_style_center">
+                            <h1 data-animation="animated flipInX">Register New Customer </h1>
+                            <h2 data-animation="animated zoomInLeft">When, you are in front of him/ her! </h2>
+                            <p data-animation="animated lightSpeedIn">You can now add / register your new customers using your apps, Activate His / Her Membership or connection instantly.</p>
+                            <a href="https://play.google.com/store/apps/details?id=aims7.ityadi.com" target="_blank" class="btn btn-primary" data-animation="animated fadeInLeft"><img src="img/playlogo.png"><h5> Download from<br><strong>Play Store</strong></h5></a>
+                            <!--<a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInRight">
+                            <i class="fa fa-apple" aria-hidden="true"></i><h5> Download from<br><strong>App Store</strong></h5></a>-->
+                        </div>
+                    </div>
+                    <!-- End of Slide -->
+
+                    <!-- Third Slide -->
+                    <div class="item">
+
+                        <!-- Slide Background -->
+                        <img src="img/slider2.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                        <div class="bs-slider-overlay"></div>
+                        <!-- Slide Text Layer -->
+                        <div class="slide-text slide_style_center">
+                            <h1 data-animation="animated zoomInLeft">Get paid via Mobile Banking (bKash)</h1>
+                            <h2 data-animation="animated flipInX">Instant activation automatically</h2>
+                            <p data-animation="animated fadeInRight">When you get pad via any mobile banking, your customer will be automatic activated to continue his service</p>
+                            <a href="https://play.google.com/store/apps/details?id=aims7.ityadi.com" target="_blank" class="btn btn-primary" data-animation="animated fadeInLeft"><img src="img/playlogo.png"><h5> Download from<br><strong>Play Store</strong></h5></a>
+                            <!--<a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInRight">
+                            <i class="fa fa-apple" aria-hidden="true"></i><h5> Download from<br><strong>App Store</strong></h5></a>-->
+                        </div>
+                    </div>
+                    <!-- End of Slide -->
+
+
+                </div><!-- End of Wrapper For Slides -->
+
+                <!-- Left Control -->
+                <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+                    <span class="fa fa-angle-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <!-- Right Control -->
+                <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> <!-- End  bootstrap-touch-slider Slider -->
+        </section>
+        <!-- slider Section end -->
+       
+        <!-- Service Section Start -->
+        <section class="info-section">
+            <div class="container">
+                <div class="head-box text-center mb-5">
+                    <h2>AIMS7 ERP for SP</h2>
+                    <h6 class="text-underline-primary">Featured Services</h6>
+                    <p>AIMS7 SP app does everything you could possibly think! Here are most user-friendly, beautiful, information-based and popular solution for you.</p>
+                </div>
+                <div class="three-panel-block mt-5">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center ">
+                                <i class="fa fa-android" aria-hidden="true"></i>
+                                <h3>Mobile Apps</h3>
+                                <p class="px-4">We offer adaptive mobile applications designed by AIMS7 experts including offline billing features </p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center">
+                            <i class="fa fa-plug" aria-hidden="true"></i>
+                                <h3>MikroTik Integrated</h3>
+                                <p class="px-4">The most valuable features for ISP. AIMS7 SP is configured and can exchange information through MikroTik API</p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center ">
+                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                <h3>Billing Management</h3>
+                                <p class="px-4">Get auto-generated invoices daily, weekly, monthly, Yearly, and/ or as per joining date and manage all your collections.</p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center ">
+                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <h3>Accounts Management</h3>
+                                <p class="px-4">Manage all your daily, monthly, yearly income &amp; expense with details reporting including transaction through apps. </p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center ">
+                                <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                                <h3>Resellers Management</h3>
+                                <p class="px-4">Manage your prepaid/postpaid resellers commission, customers, billing, etc. Reseller can manage his customers with a separate login through our software and apps.</p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center">
+                                <i class="fa fa-group" aria-hidden="true"></i>
+                                <h3>Multiple Branch &amp; Staff Management </h3>
+                                <p class="px-4">Having multiple branch management facilities with Multiple staff recruitment under each branch with their role management for software and apps. </p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center">
+                                <i class="fa fa-tree" aria-hidden="true"></i>
+                                <h3>Area Management</h3>
+                                <p class="px-4">Having an area management facility. The assigned staff of every area can manage his customer's service &amp; activities. </p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center">
+                                <i class="fa fa-sitemap" aria-hidden="true"></i>
+                                <h3>Multi Login</h3>
+                                <p class="px-4">Having login facility for admin, staff, customers, and resellers with apps and software to manage his activities. </p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center">
+                                <i class="fa fa-wrench" aria-hidden="true"></i>
+                                <h3> Service Management </h3>
+                                <p class="px-4">Our cutting-edge service management tool helps you and your customers to manage the service request without any delays both from software and apps.</p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center">
+                                <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                                <h3>Unmetered Cloud Storage</h3>
+                                <p class="px-4">AIMS7 SP maintain a cloud database to manage your data. You can access anytime and anywhere by software or apps, even if you are in offline. </p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center">
+                                <i class="fa fa-line-chart" aria-hidden="true"></i>
+                                <h3>Inventory Management</h3>
+                                <p class="px-4">Manage all your accessories and other products easily. You can manage your sales, purchase, vendors, customers and Accounts using our software. </p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center">
+                                <i class="fa fa-book" aria-hidden="true"></i>
+                                <h3>Payroll</h3>
+                                <p class="px-4">Configure salary structure, Holidays, designation, giving salary to your employees, Attendance &amp; manage their account is easily manageable by our software  </p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center">
+                                <i class="fa fa-print" aria-hidden="true"></i>
+                                <h3>Mobile / Bluetooth Printer</h3>
+                                <p class="px-4">Having auto printed receipts facility remotely for every customers payment using Bluetooth / mobile printer with our apps, even if you are offline.</p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 maincontent">
+                            <div class="service-block-overlay text-center">
+                                <i class="fa fa-id-badge" aria-hidden="true"></i>
+                                <h3>ID card / Invoice Printing</h3>
+                                <p class="px-4">Having QR code printed auto generated ID card &amp; Invoice for every month. So, you can print ID and invoice for every customer at any time.</p>
+                                <div class="infobutton">
+                                    <button type="button" class="btn btn-outline-primary">View Details</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get a quote</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#contact">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Service Section End -->
+
+        <!-- modal Section start -->
+       
+		<!-- line modal -->
+		<div class="modal fade" id="get" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+				<div class="seminor-login-modal-body">
+					<h3 class="modal-title" id="lineModalLabel">GET A QUOTE</h3>
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+				</div>
+				<div class="modal-body">
+		            <!-- content goes here -->
+					 <form class="seminor-login-form">
+                        
+			              	 <div class="field-container">  
+                                  <input type="text" class="field form-control" required placeholder="Name"/>
+                                  <label class="floating-label">Name</label> 
+                                </div>
+                                
+                                <div class="field-container">  
+                                  <input type="text" class="field form-control" required placeholder="Mobile"/>
+                                  <label class="floating-label">Mobile</label> 
+                                </div>
+
+                                <div class="field-container">  
+                                  <input type="text" class="field form-control" required placeholder="Email Address"/>
+                                  <label class="floating-label">Email Address</label> 
+                                </div>
+                                
+                                <div class="field-container">  
+                                  <select class="field form-control" placeholder="Request For Quote">
+                                       <option>Basic</option>
+                                       <option>ERP</option>
+                                       <option>Offline Apps</option>
+                                       <option>Apps</option>
+                                       <option>Wordpress Versions</option>
+                                       <option>Wordpress Plugings</option>
+                                  </select>
+                                  <label class="floating-label">Request For Quote</label>
+                                </div>
+
+                                 <div class="field-container">  
+                                    <textarea type="text" class="field form-control"  rows="3" required  placeholder="Description"></textarea>
+                                  <label class="floating-label">Description</label> 
+                                </div>
+
+			                <div class="btn-check-log">
+			                    <button type="submit" class="btn-check-login">Submit</button>
+			                </div>
+		              </form>
+				</div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+				<div class="seminor-login-modal-body">
+					<h3 class="modal-title" id="lineModalLabel">Contact Us</h3>
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+				</div>
+				<div class="modal-body">
+		            <!-- content goes here -->
+					 <form class="seminor-login-form">
+                         <div class="field-container">  
+                          <input type="text" class="field form-control" required placeholder="Name"/>
+                          <label class="floating-label">Name</label> 
+                        </div>
+                        
+                        <div class="field-container">  
+                          <input type="text" class="field form-control" required placeholder="Mobile"/>
+                          <label class="floating-label">Mobile</label> 
+                        </div>
+
+                        <div class="field-container">  
+                          <input type="text" class="field form-control" required placeholder="Email Address"/>
+                          <label class="floating-label">Email Address</label> 
+                        </div>
+                        
+                        <div class="field-container">  
+                          <select class="field form-control" placeholder="Request For Quote">
+                               <option>Basic</option>
+                               <option>ERP</option>
+                               <option>Offline Apps</option>
+                               <option>Apps</option>
+                               <option>Wordpress Versions</option>
+                               <option>Wordpress Plugings</option>
+                          </select>
+                          <label class="floating-label">Request For Quote</label>
+                        </div>
+
+                         <div class="field-container">  
+                            <textarea type="text" class="field form-control"  rows="3" required  placeholder="Description"></textarea>
+                          <label class="floating-label">Description</label> 
+                        </div>
+
+			                <div class="btn-check-log">
+			                    <button type="submit" class="btn-check-login">Submit</button>
+			                </div>
+		              </form>
+				</div>
+			</div>
+		  </div>
+		</div>
+        <!-- modal Section End -->
+
+        <!-- Releases Section start -->
+        <section class="Releases">
+            <div class="container">
+                <div class="head-box text-center">
+                    <h2>Latest</h2>
+                    <h6>Releases</h6>
+                    <p>Consectetur Adipisicing Seddo Eiusmod Tempor Ipsum dolor uidomsn go hamperti.</p>
+                </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-xs-12 Releasescontent clearfix">
+                           <div class="reimg"><img src="img/pic1.jpg" alt=""></div> 
+                            <h1>Release headline goes here</h1>
+                            <h3>Release Date: </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <button type="button" class="btn btn-outline-primary">Details</button>
+                            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get  quote</button>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12 Releasescontent clearfix">
+                           <div class="reimg"><img src="img/pic1.jpg" alt=""></div> 
+                            <h1>Release headline goes here</h1>
+                            <h3>Release Date: </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <button type="button" class="btn btn-outline-primary">Details</button>
+                            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#get">get  quote</button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Releases Section End -->
+
+        <!-- FAQ Section start -->
+        <section class="accordion-section clearfix" aria-label="Question Accordions">
+          <div class="container">
+                <div class="head-box text-center">
+                    <h2>Latest</h2>
+                    <h6>FAQ's</h6>
+                    <h4>Consectetur Adipisicing Seddo Eiusmod Tempor Ipsum dolor uidomsn go hamperti.</h4>
+                </div>
+
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="faqq">
+                        <h1>Q:</h1>
+                    </div>
+                    <div class="panelheader">
+                      <div class="panel-heading" role="tab" id="heading1">
+                        <h3 class="panel-title">
+                          <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                           Consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor 
+                          </a>
+                        </h3>
+                      </div>
+                      <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                        <div class="faqa">
+                            <h1>A:</h1>
+                        </div>
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla magni amet similique. Cum explicabo inventore id nesciunt quidem laudantium minus tempore error repellendus, magni volupt</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="faqq">
+                        <h1>Q:</h1>
+                    </div>
+                    <div class="panelheader">
+                      <div class="panel-heading" role="tab" id="heading2">
+                        <h3 class="panel-title">
+                          <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                           Consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor 
+                          </a>
+                        </h3>
+                      </div>
+                      <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                        <div class="faqa">
+                            <h1>A:</h1>
+                        </div>
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla magni amet similique. Cum explicabo inventore id nesciunt quidem laudantium minus tempore error repellendus, magni volupt</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="faqq">
+                        <h1>Q:</h1>
+                    </div>
+                    <div class="panelheader">
+                      <div class="panel-heading" role="tab" id="heading3">
+                        <h3 class="panel-title">
+                          <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                           Consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor 
+                          </a>
+                        </h3>
+                      </div>
+                      <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                        <div class="faqa">
+                            <h1>A:</h1>
+                        </div>
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla magni amet similique. Cum explicabo inventore id nesciunt quidem laudantium minus tempore error repellendus, magni volupt</p>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+          </div>
+        </section>
+        <!-- FAQ Section End -->
+
+        <!-- blog Section start -->
+        <section class="blog">
+
+            <div class="container">
+                    <div class="row text-center mb-3">
+                        <div class="col-md-12">
+                            <h2>From the</h2>
+                            <h6>Blog Posts</h6>
+                            <p>Consectetur Adipisicing Seddo Eiusmod Tempor Ipsum dolor uidomsn go hamperti.</p>
+                        </div>
+                    </div>
+                <div class="row">
+                    <!-- Swiper -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <div class="card cardborder">
+                                            <div class="card-img"><img src="img/blog.jpg"></div>
+                                            <div class="card-body">
+                                               <h5>Blog Post Headline</h5>
+                                               <h4>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor. <strong><a href="#">Read more</a></strong></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <div class="card cardborder">
+                                            <div class="card-img"><img src="img/blog.jpg"></div>
+                                            <div class="card-body">
+                                               <h5>Blog Post Headline</h5>
+                                               <h4>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor. <strong><a href="#">Read more</a></strong></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <div class="card cardborder">
+                                            <div class="card-img"><img src="img/blog.jpg"></div>
+                                            <div class="card-body">
+                                               <h5>Blog Post Headline</h5>
+                                               <h4>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor. <strong><a href="#">Read more</a></strong></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <div class="card cardborder">
+                                            <div class="card-img"><img src="img/blog.jpg"></div>
+                                            <div class="card-body">
+                                               <h5>Blog Post Headline</h5>
+                                               <h4>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor. <strong><a href="#">Read more</a></strong></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+               
+                            <div class="swiper-slide">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <div class="card cardborder">
+                                            <div class="card-img"><img src="img/blog.jpg"></div>
+                                            <div class="card-body">
+                                               <h5>Blog Post Headline</h5>
+                                               <h4>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor. <strong><a href="#">Read more</a></strong></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <div class="card cardborder">
+                                            <div class="card-img"><img src="img/blog.jpg"></div>
+                                            <div class="card-body">
+                                               <h5>Blog Post Headline</h5>
+                                               <h4>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor. <strong><a href="#">Read more</a></strong></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <div class="card cardborder">
+                                            <div class="card-img"><img src="img/blog.jpg"></div>
+                                            <div class="card-body">
+                                               <h5>Blog Post Headline</h5>
+                                               <h4>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor. <strong><a href="#">Read more</a></strong></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <div class="card cardborder">
+                                            <div class="card-img"><img src="img/blog.jpg"></div>
+                                            <div class="card-body">
+                                               <h5>Blog Post Headline</h5>
+                                               <h4>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor. <strong><a href="#">Read more</a></strong></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                          </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- blog Section end -->
+
+        
+        <!-- Testimonials Section start -->
+        <section class="Testimonials">
+            <div class="container"> 
+              <div class="row">
+                <div class='col-md-offset-2 col-md-8 text-left'>
+                <h2>Testimonials</h2>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-md-12'>
+                  <div class="carousel slide" data-ride="carousel" id="quote-carousel" data-interval="4000">
+                    <!-- Bottom Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#quote-carousel" data-slide-to="1"></li>
+                      <li data-target="#quote-carousel" data-slide-to="2"></li>
+                    </ol>
+                    
+                    <!-- Carousel Slides / Quotes -->
+                    <div class="carousel-inner">
+                    
+                      <!-- Quote 1 -->
+                      <div class="item active">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              </p>
+                              <h1>Andrew Steven</h1>
+                              <h3>FedEx Courier Service</h3>
+                            </div>
+                          </div>
+                      </div>
+                      <!-- Quote 2 -->
+                      <div class="item">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              </p>
+                              <h1>Andrew Steven</h1>
+                              <h3>FedEx Courier Service</h3>
+                            </div>
+                          </div>
+                      </div>
+                      <!-- Quote 3 -->
+                      <div class="item">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              </p>
+                              <h1>Andrew Steven</h1>
+                              <h3>FedEx Courier Service</h3>
+                            </div>
+                          </div>
+                      </div>
+
+	                    <!-- Carousel Buttons Next/Prev -->
+	                    <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+	                    <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+
+                    </div>
+                  </div>                          
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Testimonials Section End -->
+
+         <!-- footer Section start-->
+        <section class="footer_areatop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <div class="footercontent text-center">
+                            <a href="index.html"><img src="img/logo.png" alt=""></a>
+                            <h1><p><i class="fa fa-copyright"></i>2018-20 aims7.com</p></h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
+                        <div class="footercategory">
+                            <h5>AIMS7 ERP</h5>
+                            <ul>
+                                <li><i class="fa fa-chevron-right"></i><a href="index.html">Home</a></li>
+                                <li><i class="fa fa-chevron-right"></i><a href="aboutus.html">About Us</a></li>
+                                <li><i class="fa fa-chevron-right"></i><a href="version.html">Versions</a></li>
+                                <li><i class="fa fa-chevron-right"></i><a href="pricing.html">Pricing</a></li>
+                                <li><i class="fa fa-chevron-right"></i><a href="faq.html">FAQ'<small>s</small></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
+                        <div class="track">
+                            <ul>
+                                
+                                <li><i class="fa fa-chevron-right"></i><a href="product.html">Portfolio</a></li>
+                                <li><i class="fa fa-chevron-right"></i><a href="download.html">Download</a></li>
+                                <li><i class="fa fa-chevron-right"></i><a href="contact.html">Contact Us</a></li>
+                                <li><i class="fa fa-chevron-right"></i><a href="privacy.html">Privacy Policy</a></li>
+                                <li><i class="fa fa-chevron-right"></i><a href="terms.html">Terms of Use</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
+                        <div class="footercategory">
+                            <h5>Follow Us On</h5>
+                            <ul>
+                                <li><i class="fa fa-facebook-official"></i><a href="#">Facebook</a></li>
+                                <li><i class="fa fa-twitter"></i><a href="#">Twitter</a></li>
+                                <li><i class="fa fa-linkedin-square"></i><a href="#">Linkedin</a></li>
+                                <li><i class="fa fa-instagram"></i><a href="#">Instagram</a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
+                        <div class="footercategory">
+                            <h5>We Support</h5>
+                            <ul>
+                                <li><i class="fa fa-paypal"></i><a href="#">Paypal</a></li>
+                                <li><i class="fa fa-cc-mastercard"></i><a href="#">Mastercard</a></li>
+                                <li class="bkash"><a href="#">bkash</a></li>
+                                <li class="skrill"><a href=""><img src="img/skrill.png"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer Section End --> 
+      
+
+		<!-- Return to Top -->
+		<a href="javascript:" id="return-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+        <!-- Bootstrap bootstrap-touch-slider Slider Main JS File -->
+        <script src="js/bootstrap-touch-slider.js"></script>
+        
+        <script type="text/javascript">
+            $('#bootstrap-touch-slider').bsTouchSlider();
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
